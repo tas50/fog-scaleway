@@ -25,6 +25,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop'
   spec.add_development_dependency 'simplecov'
 
-  spec.add_dependency 'fog-core', '~> 1.42'
-  spec.add_dependency 'fog-json', '~> 1.0'
+  spec.add_dependency 'fog-core', '>= 1.42'
+  spec.add_dependency 'fog-json', '>= 1.0'
 end
